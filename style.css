@@ -1,0 +1,75 @@
+/* style.css */
+body{
+    background: rgb(240, 234, 234);
+    color: rgb(59, 65, 59);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;;
+    color:black;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a {
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+#banner{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1509629555017-fb1950574d52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80/");
+    background-size: cover;
+    padding: 245px 0;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#footer{
+    padding: 30px;
+    margin-top: 20px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+    text-align: center;
+}
+
+.card{
+    padding: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#footer a {
+    color: lightgrey;
+    font-size: 15px;
+}
+
+#footer a:hover {
+    color: white;
+}
